@@ -22,6 +22,6 @@ class Events
      */
     static function onTemplateGetHeader($Template)
     {
-echo 1;
+        $Template->extendHeaderWithCSSFile(URL_OPT_DIR .'quiqqer/animate/bin/animate.min.css');
     }
 }
