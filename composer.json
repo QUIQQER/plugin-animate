@@ -1,0 +1,11 @@
+{
+    "name" : "quiqqer/animate",
+    "type" : "quiqqer-plugin",
+    "description" : " A cross-browser library of CSS animations. As easy to use as an easy thing.",
+    "version" : "dev-master",
+    "license" : "MIT",
+
+    "support" : {
+        "email" : "support@pcsg.de"
+    }
+}
