@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <groups name="quiqqer/animate" datatype="js,php">
+        <locale name="package.title">
+            <de><![CDATA[QUIQQER - Animate]]></de>
+            <en><![CDATA[QUIQQER - Animate]]></en>
+        </locale>
+        <locale name="package.description">
+            <de><![CDATA[Eine Browserübergreifende Bibliothek für CSS Animationen.]]></de>
+            <en><![CDATA[A cross-browser library of CSS animations.]]></en>
+        </locale>
+    </groups>
+</locales>

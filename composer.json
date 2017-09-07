@@ -1,17 +1,15 @@
 {
-    "name" : "quiqqer/animate",
-    "type" : "quiqqer-plugin",
-    "description" : " A cross-browser library of CSS animations. As easy to use as an easy thing.",
-    "version" : "dev-master",
-    "license" : "MIT",
-
-    "support" : {
-        "email" : "support@pcsg.de"
+    "name": "quiqqer\/animate",
+    "type": "quiqqer-plugin",
+    "description": "A cross-browser library of CSS animations. As easy to use as an easy thing.",
+    "version": "dev-dev",
+    "license": "MIT",
+    "support": {
+        "email": "support@pcsg.de"
     },
-
     "autoload": {
-        "psr-0" : {
-            "QUI" : "src/"
+        "psr-0": {
+            "QUI": "src\/"
         }
     }
 }
