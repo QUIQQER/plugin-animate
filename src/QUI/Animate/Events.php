@@ -20,7 +20,7 @@ class Events
      *
      * @param QUI\Template $Template
      */
-    static function onTemplateGetHeader(QUI\Template $Template)
+    public static function onTemplateGetHeader(QUI\Template $Template)
     {
         $Template->extendHeaderWithCSSFile(URL_OPT_DIR . 'quiqqer/animate/bin/animate.min.css');
     }
