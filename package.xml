@@ -10,6 +10,12 @@
 
         <image src="URL_OPT_DIR/quiqqer/animate/bin/images/Logo.jpg"/>
 
+        <preview>
+            <image src="URL_OPT_DIR/quiqqer/animate/bin/images/preview/tada.gif"/>
+            <image src="URL_OPT_DIR/quiqqer/animate/bin/images/preview/shake.gif"/>
+            <image src="URL_OPT_DIR/quiqqer/animate/bin/images/preview/zoom_in.gif"/>
+        </preview>
+
         <support>
             <email><![CDATA[support@pcsg.de]]></email>
             <forum><![CDATA[https://community.quiqqer.com]]></forum>
