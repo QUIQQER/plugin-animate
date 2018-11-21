@@ -18,9 +18,9 @@ class Events
     /**
      * Event : on template get header
      *
-     * @param QUI\Template $Site
+     * @param QUI\Template $Template
      */
-    static function onTemplateGetHeader($Template)
+    static function onTemplateGetHeader(QUI\Template $Template)
     {
         $Template->extendHeaderWithCSSFile(URL_OPT_DIR . 'quiqqer/animate/bin/animate.min.css');
     }
