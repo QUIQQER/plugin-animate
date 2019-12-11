@@ -1,34 +1,33 @@
 {
-  "name": "quiqqer/animate",
-  "type": "quiqqer-plugin",
-  "description": "A cross-browser library of CSS animations.",
-  "version": "dev-dev",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Henning Leutz",
-      "email": "leutz@pcsg.de",
-      "homepage": "https://www.pcsg.de",
-      "role": "Developer"
+    "name": "quiqqer\/animate",
+    "type": "quiqqer-plugin",
+    "description": "A cross-browser library of CSS animations.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henning Leutz",
+            "email": "leutz@pcsg.de",
+            "homepage": "https:\/\/www.pcsg.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Jan Wennrich",
+            "email": "info@pcsg.de",
+            "homepage": "https:\/\/www.pcsg.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@pcsg.de",
+        "url": "https:\/\/www.pcsg.de"
     },
-    {
-      "name": "Jan Wennrich",
-      "email": "info@pcsg.de",
-      "homepage": "https://www.pcsg.de",
-      "role": "Developer"
+    "require": {
+        "php": ">=5.3",
+        "quiqqer\/quiqqer": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "QUI\\Animate\\": "src\/QUI\/Animate"
+        }
     }
-  ],
-  "support": {
-    "email": "support@pcsg.de",
-    "url": "https://www.pcsg.de"
-  },
-  "require": {
-    "php": ">=5.3",
-    "quiqqer/quiqqer": "*@dev"
-  },
-  "autoload": {
-    "psr-4": {
-      "QUI\\Animate\\": "src/QUI/Animate"
-    }
-  }
 }
